@@ -1,0 +1,1049 @@
+[DEBUG] Watching for changes in setting files /root/.claude/settings.json, /root/.claude/settings.json, /root/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'userSettings': ["Bash"]
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'projectSettings': ["Bash"]
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /root/.bashrc
+[DEBUG] Snapshots directory: /root/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /root/.claude/shell-snapshots/snapshot-bash-1762937134951-kne43o.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937134959
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937134959 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/root/.claude/skills, project=/root/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Shell snapshot created successfully (3485 bytes)
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937135984
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37158 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937135984 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937136028
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37240 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937136028 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937138369
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37240 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937138369 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937138372
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37240 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937138372 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937140777
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37311 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937140777 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937143587
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37342 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937143587 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937143590
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37362 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937143590 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937143663
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37362 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937143663 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937143665
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37398 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937143665 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937143668
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37849 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937143668 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=undefined
+[DEBUG] Skipping plugin installations - ENABLE_PLUGINS not set
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937144158
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37954 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937144158 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937144298
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37954 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937144298 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] AutoUpdater: Detected installation type: npm-global
+[DEBUG] AutoUpdater: Using global update method
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937147609
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37953 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937147609 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for c45a392a-b6fb-47b7-8d5d-2b9ed1d0da17, tracking 0 files
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937149752
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 38458 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937149752 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error: Error: 400 {"error":{"message":"400: {'error': 'completion: Invalid model name passed in model=claude-3-5-haiku-20241022'}","type":"None","param":"None","code":"400"}}
+    at i9.generate (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:881:18710)
+    at bP.makeStatusError (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1026:2117)
+    at bP.makeRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1026:5330)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[ERROR] SyntaxError: SyntaxError: Unexpected token 'A', "API Error:"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:745:9912
+    at Q (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:711:14235)
+    at B_2 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1045:27917)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937160836
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1471 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937160836 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[ERROR] Error: Error: 400 {"error":{"message":"400: {'error': 'completion: Invalid model name passed in model=claude-3-5-haiku-20241022'}","type":"None","param":"None","code":"400"}}
+    at i9.generate (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:881:18710)
+    at bP.makeStatusError (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1026:2117)
+    at bP.makeRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1026:5330)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Bash tool invoked with command: mkdir -p terraform-aws/modules/{vpc,ec2,bastion,alb}
+[DEBUG] Bash tool description: Create directory structure for Terraform modules
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] Error: Error: 400 {"error":{"message":"400: {'error': 'completion: Invalid model name passed in model=claude-3-5-haiku-20241022'}","type":"None","param":"None","code":"400"}}
+    at i9.generate (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:881:18710)
+    at bP.makeStatusError (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1026:2117)
+    at bP.makeRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1026:5330)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Write: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/vpc/variables.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/vpc/variables.tf.tmp.1621.1762937178604
+[DEBUG] Temp file written successfully, size: 549 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/vpc/variables.tf.tmp.1621.1762937178604 to /root/terraform-aws/modules/vpc/variables.tf
+[DEBUG] File /root/terraform-aws/modules/vpc/variables.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] AutoUpdater: Detected installation type: npm-global
+[DEBUG] AutoUpdater: Using global update method
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937182304
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 38458 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937182304 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/vpc/main.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/vpc/main.tf.tmp.1621.1762937188500
+[DEBUG] Temp file written successfully, size: 1695 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/vpc/main.tf.tmp.1621.1762937188500 to /root/terraform-aws/modules/vpc/main.tf
+[DEBUG] File /root/terraform-aws/modules/vpc/main.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/vpc/outputs.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/vpc/outputs.tf.tmp.1621.1762937192938
+[DEBUG] Temp file written successfully, size: 317 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/vpc/outputs.tf.tmp.1621.1762937192938 to /root/terraform-aws/modules/vpc/outputs.tf
+[DEBUG] File /root/terraform-aws/modules/vpc/outputs.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937199917
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1477 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937199917 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/security-groups/variables.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/security-groups/variables.tf.tmp.1621.1762937204780
+[DEBUG] Temp file written successfully, size: 296 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/security-groups/variables.tf.tmp.1621.1762937204780 to /root/terraform-aws/modules/security-groups/variables.tf
+[DEBUG] File /root/terraform-aws/modules/security-groups/variables.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/security-groups/main.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/security-groups/main.tf.tmp.1621.1762937214211
+[DEBUG] Temp file written successfully, size: 1712 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/security-groups/main.tf.tmp.1621.1762937214211 to /root/terraform-aws/modules/security-groups/main.tf
+[DEBUG] File /root/terraform-aws/modules/security-groups/main.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/security-groups/outputs.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/security-groups/outputs.tf.tmp.1621.1762937218001
+[DEBUG] Temp file written successfully, size: 201 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/security-groups/outputs.tf.tmp.1621.1762937218001 to /root/terraform-aws/modules/security-groups/outputs.tf
+[DEBUG] File /root/terraform-aws/modules/security-groups/outputs.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937223623
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1479 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937223623 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/ec2/variables.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/ec2/variables.tf.tmp.1621.1762937229174
+[DEBUG] Temp file written successfully, size: 620 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/ec2/variables.tf.tmp.1621.1762937229174 to /root/terraform-aws/modules/ec2/variables.tf
+[DEBUG] File /root/terraform-aws/modules/ec2/variables.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/ec2/main.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/ec2/main.tf.tmp.1621.1762937235350
+[DEBUG] Temp file written successfully, size: 664 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/ec2/main.tf.tmp.1621.1762937235350 to /root/terraform-aws/modules/ec2/main.tf
+[DEBUG] File /root/terraform-aws/modules/ec2/main.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/ec2/outputs.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/ec2/outputs.tf.tmp.1621.1762937238438
+[DEBUG] Temp file written successfully, size: 123 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/ec2/outputs.tf.tmp.1621.1762937238438 to /root/terraform-aws/modules/ec2/outputs.tf
+[DEBUG] File /root/terraform-aws/modules/ec2/outputs.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937245759
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1481 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937245759 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/bastion/variables.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/bastion/variables.tf.tmp.1621.1762937251144
+[DEBUG] Temp file written successfully, size: 654 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/bastion/variables.tf.tmp.1621.1762937251144 to /root/terraform-aws/modules/bastion/variables.tf
+[DEBUG] File /root/terraform-aws/modules/bastion/variables.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/bastion/main.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/bastion/main.tf.tmp.1621.1762937256391
+[DEBUG] Temp file written successfully, size: 356 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/bastion/main.tf.tmp.1621.1762937256391 to /root/terraform-aws/modules/bastion/main.tf
+[DEBUG] File /root/terraform-aws/modules/bastion/main.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/bastion/outputs.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/bastion/outputs.tf.tmp.1621.1762937261834
+[DEBUG] Temp file written successfully, size: 123 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/bastion/outputs.tf.tmp.1621.1762937261834 to /root/terraform-aws/modules/bastion/outputs.tf
+[DEBUG] File /root/terraform-aws/modules/bastion/outputs.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937268116
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1483 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937268116 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/alb/variables.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/alb/variables.tf.tmp.1621.1762937272799
+[DEBUG] Temp file written successfully, size: 533 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/alb/variables.tf.tmp.1621.1762937272799 to /root/terraform-aws/modules/alb/variables.tf
+[DEBUG] File /root/terraform-aws/modules/alb/variables.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/alb/main.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/alb/main.tf.tmp.1621.1762937280970
+[DEBUG] Temp file written successfully, size: 1046 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/alb/main.tf.tmp.1621.1762937280970 to /root/terraform-aws/modules/alb/main.tf
+[DEBUG] File /root/terraform-aws/modules/alb/main.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/modules/alb/outputs.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/modules/alb/outputs.tf.tmp.1621.1762937285664
+[DEBUG] Temp file written successfully, size: 184 bytes
+[DEBUG] Renaming /root/terraform-aws/modules/alb/outputs.tf.tmp.1621.1762937285664 to /root/terraform-aws/modules/alb/outputs.tf
+[DEBUG] File /root/terraform-aws/modules/alb/outputs.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937292832
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1485 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937292832 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/variables.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/variables.tf.tmp.1621.1762937302519
+[DEBUG] Temp file written successfully, size: 962 bytes
+[DEBUG] Renaming /root/terraform-aws/variables.tf.tmp.1621.1762937302519 to /root/terraform-aws/variables.tf
+[DEBUG] File /root/terraform-aws/variables.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/main.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/main.tf.tmp.1621.1762937310744
+[DEBUG] Temp file written successfully, size: 1409 bytes
+[DEBUG] Renaming /root/terraform-aws/main.tf.tmp.1621.1762937310744 to /root/terraform-aws/main.tf
+[DEBUG] File /root/terraform-aws/main.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for /root/terraform-aws/outputs.tf
+[DEBUG] Writing to temp file: /root/terraform-aws/outputs.tf.tmp.1621.1762937316613
+[DEBUG] Temp file written successfully, size: 530 bytes
+[DEBUG] Renaming /root/terraform-aws/outputs.tf.tmp.1621.1762937316613 to /root/terraform-aws/outputs.tf
+[DEBUG] File /root/terraform-aws/outputs.tf written atomically
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: tf
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:394
+    at Object.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:25928)
+    at y3Q.useMemo (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:7000)
+    at E$ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1105:286)
+    at EC (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:32:19415)
+    at Cp (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:42814)
+    at G9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38355)
+    at Lh (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38283)
+    at _C (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:38137)
+    at jz (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:34:35216)
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937323183
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1487 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937323183 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937330193
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json.tmp.1621.1762937330193 to /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json
+[DEBUG] File /root/.claude/todos/93b12fda-8911-4a86-b1f1-82856b5e766d-agent-93b12fda-8911-4a86-b1f1-82856b5e766d.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937343795
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 38507 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937343795 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937343817
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 38545 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937343817 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /root/.claude/shell-snapshots/snapshot-bash-1762937134951-kne43o.sh
+[DEBUG] FileHistory: Making snapshot for message 17f3a5e7-fca2-41b0-a39d-3e083eee5c99
+[DEBUG] FileHistory: Added snapshot for 17f3a5e7-fca2-41b0-a39d-3e083eee5c99, tracking 18 files
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937363026
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 38627 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937363026 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937363041
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 38652 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937363041 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
+[DEBUG] Metrics opt-out check failed: No API key available
+[DEBUG] Metrics check failed, defaulting to disabled
+[DEBUG] Metrics export disabled by organization setting
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter shutdown complete
+[DEBUG] Writing to temp file: /root/.claude.json.tmp.1621.1762937363097
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 39105 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /root/.claude.json.tmp.1621.1762937363097 to /root/.claude.json
+[DEBUG] File /root/.claude.json written atomically
