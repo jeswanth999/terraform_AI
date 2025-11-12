@@ -1,1 +1,0 @@
-"""Snake game package running on port 5000 with cool color scheme"""
